@@ -1,24 +1,22 @@
 {
   "name": "social-bits",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start":"node backend/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maulikchavda/social-bits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maulikchavda/social-bits/issues"
+  },
+  "homepage": "https://github.com/maulikchavda/social-bits#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.0.24"
+    "express": "^4.18.1"
   }
 }
